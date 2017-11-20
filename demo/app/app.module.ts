@@ -4,13 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import {NgGridModule} from '../../src/ng-grid.module'
+
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
